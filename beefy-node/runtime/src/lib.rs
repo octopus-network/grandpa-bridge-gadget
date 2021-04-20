@@ -203,6 +203,7 @@ impl frame_system::Config for Runtime {
 	type SystemWeightInfo = ();
 	/// The designated SS85 prefix of this chain.
 	type SS58Prefix = SS58Prefix;
+	type OnSetCode = ();
 }
 
 impl pallet_aura::Config for Runtime {
