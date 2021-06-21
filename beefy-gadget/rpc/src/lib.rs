@@ -32,7 +32,7 @@ use log::warn;
 use sp_runtime::traits::Block as BlockT;
 use std::sync::Arc;
 
-mod notification;
+pub mod notification;
 
 /// Provides RPC methods for interacting with BEEFY.
 #[allow(clippy::needless_return)]

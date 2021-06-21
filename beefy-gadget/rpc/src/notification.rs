@@ -23,7 +23,7 @@ use sp_runtime::traits::Block as BlockT;
 /// The given bytes should be the SCALE-encoded representation of a
 /// `beefy_primitives::SignedCommitment`.
 #[derive(Clone, Serialize, Deserialize)]
-pub struct SignedCommitment(sp_core::Bytes);
+pub struct SignedCommitment(pub sp_core::Bytes);
 
 impl SignedCommitment {
 	pub fn new<Block, Signature>(
