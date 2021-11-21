@@ -12,3 +12,5 @@
 
 #Ignore VSCode stuff
 .vscode
+
+.idea
