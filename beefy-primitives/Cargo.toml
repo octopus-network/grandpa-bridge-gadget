@@ -13,7 +13,7 @@ sp-application-crypto = { git = "https://github.com/paritytech/substrate", defau
 sp-core = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.11" }
 sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.11" }
 sp-std = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.11" }
-scale-info = { version = "1.0.0", default-features = false }
+scale-info = { version = "1.0.0", default-features = false, features = ["derive"] }
 
 [dev-dependencies]
 hex-literal = "0.3"
